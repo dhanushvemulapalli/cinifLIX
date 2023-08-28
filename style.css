@@ -1,0 +1,75 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #030C67;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+h3 {
+  color: darkslateblue;
+  font-size: 4em
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: royalblue;
+  padding: 10px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: yellow ;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 12rem;
+}
+
+.topnav .search-cont {
+  float: right;
+}
+
+form {
+  background-color: white;
+  width: 1500px;
+  height: 150px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  all: unset;
+  font-size: 100px;
+  color: black;
+  height: 100%;
+  width: 100%;
+  padding: 6px 9px;
+}
+
+.picture {
+  height: 350px;
+  width: 100%;
+  border-radius: 19px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.card {
+  border-radius: 19px;
+  padding: 15px;
+  text-align: center;
+  background-color: yellow
+}
